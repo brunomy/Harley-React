@@ -1,0 +1,15 @@
+*:focus-visible{
+    outline: initial;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family:freedommachine;
+    src: url('./fonts/freedommachine-regular.ttf');
+}
+
+*{ 
+    font-family: "Noto Sans", sans-serif; 
+    box-sizing: border-box;
+}

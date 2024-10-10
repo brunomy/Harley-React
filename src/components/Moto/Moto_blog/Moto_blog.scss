@@ -1,0 +1,69 @@
+section{
+    &.moto_blog{
+        background: #ffffff;
+
+        .content{
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 37px;
+            padding: 40px 0 114px;
+
+            .item{
+                width: 375px;
+                
+                a{
+                    text-decoration: none;
+
+                    .img{
+                        border: 1px solid #C6C6C6;
+                        width: 100%;
+                        height: 190px;
+                        margin: 0 0 23px;
+
+                        img{
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 700;
+                        color: #292929;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 1250px){
+            .content{
+                justify-content: center;
+                padding: 40px 25px 114px;
+                box-sizing: border-box;
+            }
+        }
+        @media (max-width: 900px){
+            .content{
+                gap: 40px 20px;
+                padding: 40px 25px 77px;
+
+                .item{
+                    width: 310px;
+
+                    a{
+                        .img{
+                            height: 160px;                            
+                            margin: 0 0 19px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

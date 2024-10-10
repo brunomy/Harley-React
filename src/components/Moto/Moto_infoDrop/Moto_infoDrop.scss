@@ -1,0 +1,133 @@
+section{
+    &.moto_infoDrop{
+        background: #fff;
+        padding: 30px 0 50px;
+
+        .content{
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+
+            .item{
+                position: relative;
+                padding: 24px 60px 24px 152px;
+                border-bottom: 3px solid #CDD6DA40;
+                cursor: pointer;
+
+                &:last-child{
+                    border: none;
+                }
+
+                &[data-open="false"]{
+                    button.close{
+                        background: #F3F5F6;
+
+                        svg{
+                            transform: rotate(0deg);
+
+                            path{ fill: #000; }
+                        }
+                    }
+                    .text{
+                        height: 0;
+                        padding-top: 0;
+                    }
+
+                }
+                >span{
+                    font-family:freedommachine;
+                    font-weight: 100;
+                    font-size: 48px;
+                    line-height: 57px;
+                    color: rgba(60, 60, 67, 0.5);
+                    position: absolute;
+                    top: 24px;
+                    left: 60px;
+                }
+                >h2{
+                    padding: 13px 65px 10px 0;
+                    font-family:freedommachine;
+                    font-weight: 100;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #000;
+                    margin: 0;
+                }
+                .text{
+                    overflow: hidden;
+                    padding: 16px 50px 0 0;
+                    transition: all .3s;
+
+                    *{
+                        font-size: 15px;
+                        line-height: 18px;
+                        margin: 0;
+                        color: #292929;
+                    }
+                }
+                button.close{
+                    position: absolute;
+                    right: 60px;
+                    top: 27px;
+                    width: 48px;
+                    height: 48px;
+                    border: none;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #FF680F;
+                    transition: all .3s;
+                    cursor: pointer;
+
+                    svg{
+                        transition: all .3s;
+                        transform: rotate(45deg);
+
+                        path{ 
+                            fill: #fff;
+                            transition: all .3s; 
+                        }
+                    }
+                }
+            
+            }
+        }
+
+        @media (max-width: 650px){
+            padding: 10px 0 10px;
+
+            .content{
+                .item{
+                    padding: 35px 25px 35px 110px;
+
+                    >span{
+                        font-size: 36px;
+                        line-height: 42px;
+                        left: 25px;
+                        top: 32px;
+                    }
+                    >h2{
+                        font-size: 24px;
+                        line-height: 28px;
+                        padding: 4px 40px 4px 0;
+                    }
+                    .text{
+                        padding: 15px 15px 0 0;
+
+                        *{
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+                    button.close{
+                        width: 37px;
+                        height: 37px;
+                        top: 33px;
+                        right: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
