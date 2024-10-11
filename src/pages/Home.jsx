@@ -4,42 +4,42 @@ import Home_categoria from "../components/Home/Home_categoria/Home_categoria";
 export default function Home() {
     const banners = [
         {
-            imgDesk: '/public/banner[1750x850].png',
-            imgMobile: '/public/banner[550x520].png'
+            imgDesk: '/Harley-React/public/banner[1750x850].png',
+            imgMobile: '/Harley-React/public/banner[550x520].png'
         },
         {
-            imgDesk: '/public/banner2[1750x850].png',
-            imgMobile: '/public/banner2[550x520].png',
+            imgDesk: '/Harley-React/public/banner2[1750x850].png',
+            imgMobile: '/Harley-React/public/banner2[550x520].png',
         },
         {
-            imgDesk: '/public/banner3[1750x850].png',
-            imgMobile: '/public/banner3[550x520].png',
+            imgDesk: '/Harley-React/public/banner3[1750x850].png',
+            imgMobile: '/Harley-React/public/banner3[550x520].png',
         },
     ]
 
     const categorias = [
         {
             title: 'Grand American Touring',
-            img: '/public/categoria[1920x990].png',
-            imgMobile: '/public/categoria[600x700].png',
+            img: '/Harley-React/public/categoria[1920x990].png',
+            imgMobile: '/Harley-React/public/categoria[600x700].png',
             link: '/'
         },
         {
             title: 'Cruiser',
-            img: '/public/categoria2[1920x990].png',
-            imgMobile: '/public/categoria2[600x700].png',
+            img: '/Harley-React/public/categoria2[1920x990].png',
+            imgMobile: '/Harley-React/public/categoria2[600x700].png',
             link: '/'
         },
         {
             title: 'Adventure Touring',
-            img: '/public/categoria3[1920x990].png',
-            imgMobile: '/public/categoria3[600x700].png',
+            img: '/Harley-React/public/categoria3[1920x990].png',
+            imgMobile: '/Harley-React/public/categoria3[600x700].png',
             link: '/'
         },
         {
             title: 'Sport',
-            img: '/public/categoria4[1920x990].png',
-            imgMobile: '/public/categoria4[600x700].png',
+            img: '/Harley-React/public/categoria4[1920x990].png',
+            imgMobile: '/Harley-React/public/categoria4[600x700].png',
             link: '/'
         }
     ]

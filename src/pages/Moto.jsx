@@ -7,7 +7,7 @@ import Moto_video from "../components/Moto/Moto_video/Moto_video";
 
 export default function Moto() {
     const banner = {
-        img: '/public/moto_banner[1920x850].png',
+        img: '/Harley-React/public/moto_banner[1920x850].png',
         title: 'Sportster™ S 2024',
         ano: '2024',
         preco: '247.000',
@@ -25,48 +25,48 @@ export default function Moto() {
     const moto_colors = [
         {
             color: '#000000',
-            img: '/public/motoColor[850x500].png'
+            img: '/Harley-React/public/motoColor[850x500].png'
         },
         {
             color: '#AE0E0E',
-            img: '/public/motoColor2[850x500].png'
+            img: '/Harley-React/public/motoColor2[850x500].png'
         },
         {
             color: '#6a6a6a',
-            img: '/public/motoColor3[850x500].png'
+            img: '/Harley-React/public/motoColor3[850x500].png'
         },
         {
             color: '#7e929d',
-            img: '/public/motoColor4[850x500].png'
+            img: '/Harley-React/public/motoColor4[850x500].png'
         }
     ]
     const video_info = {
-        img: '/public/video%5B1920x640%5D.png', 
+        img: '/Harley-React/public/video%5B1920x640%5D.png', 
         videoUrl: 'https://www.youtube.com/watch?v=eJpD9IV2feE'
     }
     const galeria = [
         {
-            img: '/public/galeria1%5B1100x500%5D.png',
+            img: '/Harley-React/public/galeria1%5B1100x500%5D.png',
             width: '1100',
             height: '500',
         },
         {
-            img: '/public/categoria%5B1920x990%5D.png',
+            img: '/Harley-React/public/categoria%5B1920x990%5D.png',
             width: '1920',
             height: '990',
         },
         {
-            img: '/public/banner%5B1750x850%5D.png',
+            img: '/Harley-React/public/banner%5B1750x850%5D.png',
             width: '1750',
             height: '850',
         },
         {
-            img: '/public/video%5B1920x640%5D.png',
+            img: '/Harley-React/public/video%5B1920x640%5D.png',
             width: '1920',
             height: '640',
         },
         {
-            img: '/public/moto_banner%5B1920x850%5D.png',
+            img: '/Harley-React/public/moto_banner%5B1920x850%5D.png',
             width: '1920',
             height: '850',
         }
@@ -101,17 +101,17 @@ export default function Moto() {
     const listaBlog = [
         {
             link: '/',
-            img: '/public/blog%5B375x190%5D.png',
+            img: '/Harley-React/public/blog%5B375x190%5D.png',
             text: 'Lorem ipsum dolor sit amet consectetur. Dolor.'
         },
         {
             link: '/',
-            img: '/public/blog%5B375x190%5D.png',
+            img: '/Harley-React/public/blog%5B375x190%5D.png',
             text: 'Lorem ipsum dolor sit amet consectetur. Id ut.'
         },
         {
             link: '/',
-            img: '/public/blog%5B375x190%5D.png',
+            img: '/Harley-React/public/blog%5B375x190%5D.png',
             text: 'Lorem ipsum dolor sit amet consectetur.'
         }
     ]
